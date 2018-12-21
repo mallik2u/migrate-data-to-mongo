@@ -1,0 +1,15 @@
+{
+  "name": "mongo-data-migration",
+  "version": "1.0.0",
+  "description": "Consolidating data from 2 json files and migrating it to Mongo DB",
+  "main": "migrate-data.js",
+  "scripts": {
+    "test": "node migrate-data.js"
+  },
+  "author": "Mallikharjun Cheruvu",
+  "license": "ISC",
+  "dependencies": {
+    "async": "2.6.1",
+    "mongodb": "3.1.10"
+  }
+}
